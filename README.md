@@ -1,12 +1,22 @@
 # Hand Gesture Recognition
 
 This project implements a hand gesture recognition system using convolutional neural networks (CNN) and TensorFlow. The model is designed to classify hand gestures based on images, providing a real-time prediction capability via a graphical user interface (GUI).
-
+## Table of Contents
+- [Features](#features)
+- [Dataset](#dataset)
+- [Getting Started](#getting-started)
+  - [Prequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
 ## Features
 
 - **Model Training**: A CNN model trained on hand gesture images.
 - **Real-Time Prediction**: A GUI that allows users to interact with the model for gesture recognition.
 - **Model Saving and Loading**: The trained model can be saved to disk and loaded for predictions.
+
+## Dataset
+
+The model is trained using the **Leap Gesture Recognition Dataset**. This dataset consists of various hand gestures captured under different conditions. You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/gti-upm/leapgestrecog/data). Ensure to structure the dataset appropriately in your project directory.
 
 ## Getting Started
 
